@@ -1,0 +1,56 @@
+.container {
+	color: white;
+}
+
+.row {
+
+}
+
+.col-sm-12 {
+
+}
+
+.col-sm-3 {
+
+}	
+
+.col-sm-9 {
+	
+}
+
+.header {
+
+}
+
+.buttons {
+
+}
+
+.instructions {
+	font-size: 16px;
+}
+
+.btn {
+	margin: 5px;
+}
+
+#buttonsDiv {
+	
+}
+
+#buttonCol12 {
+	padding: 30px;
+}
+
+#category {
+	color: black;
+}
+
+form {
+	float: right;
+}
+
+.displayWrapper {
+	float: left;
+	margin: 30px;
+}

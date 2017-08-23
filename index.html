@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Gifs</title>
+
+	<!-- Bootstrap 3.3.6 -->
+	<link href="assets/css/bootstrap.min3.3.6.css" rel="stylesheet">
+    
+    <!--Bootswatch Cyborg-->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/cyborg/bootstrap.min.css">
+
+    <!--My CSS Override of Bootstrap and Bootswatch-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+<div class="container">
+	<div id="buttonRow" class="row">
+		<div id="buttonCol12" class="col-sm-12">
+			<div class="row">
+				<div class="col-sm-3">
+					<h3 class="header">Space Gifs!</h3>
+					<p id="instructions">Click on a Button for Gif Action</p>
+				</div>
+				<div class="col-sm-9">
+					<div id="buttonsDiv"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="formRow" class="row">
+		<div id="formCol12" class="col-sm-12">
+			<form>
+		      <span id="addButton">Enter a New Category: <input id="category" type="text" ><input id="addCategory" value="Add Category" class ="buttons btn btn-primary" color="black" type="button"></span>
+		    </form>
+		</div>
+	</div>
+
+	<div id="displayRow" class="row">
+		<div id="displayCol12" class="col-sm-12">
+			<div id="displayDiv"></div>
+		</div>
+	</div>
+</div>
+
+<!-- jQuery JS -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
+<!-- Code to the Javascript File -->
+<script src="assets/scripts/giphyApi.js"></script>
+
+</body>
+</html>
